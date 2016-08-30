@@ -4,13 +4,13 @@ var
 	$ = require('jquery'),
 	ko = require('knockout'),
 	
-	TextUtils = require('modules/CoreClient/js/utils/Text.js'),
-	Types = require('modules/CoreClient/js/utils/Types.js'),
-	Utils = require('modules/CoreClient/js/utils/Common.js'),
+	TextUtils = require('%PathToCoreWebclientModule%/js/utils/Text.js'),
+	Types = require('%PathToCoreWebclientModule%/js/utils/Types.js'),
+	Utils = require('%PathToCoreWebclientModule%/js/utils/Common.js'),
 	
-	Api = require('modules/CoreClient/js/Api.js'),
-	App = require('modules/CoreClient/js/App.js'),
-	Screens = require('modules/CoreClient/js/Screens.js'),
+	Api = require('%PathToCoreWebclientModule%/js/Api.js'),
+	App = require('%PathToCoreWebclientModule%/js/App.js'),
+	Screens = require('%PathToCoreWebclientModule%/js/Screens.js'),
 	
 	Ajax = require('modules/%ModuleName%/js/Ajax.js')
 ;
